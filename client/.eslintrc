@@ -1,0 +1,18 @@
+{
+    "extends": ["airbnb", "airbnb/hooks"],
+    "rules" : {
+      "function-paren-newline": ["error", "consistent"],
+      "import/prefer-default-export" : "off",
+      "jsx-a11y/anchor-is-valid": [ "error", {
+        "components": [ "Link" ],
+        "specialLink": [ "to" ]
+      }],
+      "max-len" : [ "error", {"code": 100} ],
+      "no-mixed-operators": ["error", {"allowSamePrecedence": true}],
+      "no-plusplus": "off",
+      "object-curly-newline": "off",
+      "radix": "off",
+      "react/forbid-prop-types" : "off",
+      "react/jsx-boolean-value": "off"
+    }
+  }
